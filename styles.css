@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 3rem;
+    padding: 5rem;
+    background-image: url(/img/celulares3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo-principal{
+    font-family: 'Cabin', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: rgba(255, 244, 202, 0.904);
+    font-weight: bold;
+}
+
+.titulo-secundario{
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.navegacion{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    text-decoration: none;
+    text-align: center;
+    padding: 11px;
+}
+
+a{
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+a:hover{
+    color: lightblue;
+}
+
+.contenido-principal    {
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
+.contenido{
+    max-width: 120rem;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 2rem;
+    justify-content:stretch;
+}
+
+.buttons{
+    gap: 2rem;
+}
+
+.button{
+    border: 1px solid black; 
+    padding: 10px; 
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none; 
+    font-family: 'Cabin', sans-serif;
+    border-radius: 50px; 
+}
+
+
+.producto-imagen
+ {
+    border:black;
+    border-width: 2rem;
+    width: 18rem;
+    height: 18rem;
+}
+
+footer{
+    background-color: whitesmoke;
+    justify-content: center;
+    text-align: center;
+    padding: 1px;
+    font-size: 14px;
+}
